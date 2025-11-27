@@ -2,6 +2,9 @@
   text-align: center;
   padding: var(--spacing-xl) 0;
   background: var(--surface);
+  border: 3px dashed var(--border);
+  margin: var(--spacing-md);
+  border-radius: var(--radius);
 }
 
 .buttonGroup {
@@ -13,10 +16,12 @@
 }
 
 .androidBtn {
-  background: #3ddc84; /* Android Green */
-  color: #000;
+  background: var(--primary);
+  color: var(--border);
+  border: 3px solid var(--border);
 }
 
 .androidBtn:hover {
-  background: #35c776;
+  background: var(--primary-hover);
+  box-shadow: 4px 4px 0 var(--border);
 }

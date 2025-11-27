@@ -8,12 +8,12 @@
 .wrapper {
   position: relative;
   width: 100%;
-  max-width: 400px; /* Shorts are vertical usually, limit width */
+  max-width: 400px;
   aspect-ratio: 9 / 16;
   border-radius: var(--radius);
   overflow: hidden;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  border: 1px solid var(--border);
+  box-shadow: none;
+  border: 3px dashed var(--border);
 }
 
 .iframe {

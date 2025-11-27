@@ -4,22 +4,29 @@
   align-items: center;
   text-align: center;
   padding: var(--spacing-xl) var(--spacing-md);
-  background: radial-gradient(circle at center, var(--surface) 0%, var(--background) 100%);
+  background: var(--background);
+  border: 3px dashed var(--border);
+  margin: var(--spacing-md);
+  border-radius: var(--radius);
 }
 
 .title {
   margin-bottom: var(--spacing-md);
   max-width: 800px;
+  color: var(--primary);
+  text-shadow: 3px 3px 0 var(--border);
+  padding: 0 var(--spacing-md);
 }
 
 .description {
-  font-size: 1.25rem;
-  color: #a1a1aa;
+  font-size: 0.9rem;
+  color: var(--foreground);
   margin-bottom: var(--spacing-lg);
   max-width: 600px;
+  line-height: 1.8;
 }
 
 .cta {
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 1rem 2rem;
 }

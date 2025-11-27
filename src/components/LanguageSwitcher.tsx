@@ -18,17 +18,21 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div style={{ position: 'absolute', top: '1rem', right: '1rem' }}>
+    <div style={{ position: 'absolute', top: '1rem', right: '1rem', zIndex: 101 }}>
       <select
         defaultValue={locale}
         onChange={handleChange}
         disabled={isPending}
         style={{
-          padding: '0.5rem',
-          borderRadius: '0.5rem',
-          background: 'var(--surface)',
-          color: 'var(--foreground)',
-          border: '1px solid var(--border)'
+          padding: '0.5rem 1rem',
+          borderRadius: 'var(--radius)',
+          background: 'var(--primary)',
+          color: 'var(--border)',
+          border: '3px solid var(--border)',
+          fontWeight: '900',
+          fontSize: '0.8rem',
+          textTransform: 'uppercase',
+          cursor: 'pointer'
         }}
       >
         <option value="en">English</option>

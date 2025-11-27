@@ -1,5 +1,9 @@
 .container {
   padding: var(--spacing-xl) 0;
+  background: var(--background);
+  border: 3px dashed var(--border);
+  margin: var(--spacing-md);
+  border-radius: var(--radius);
 }
 
 .form {
@@ -10,12 +14,14 @@
 .message {
   margin-top: var(--spacing-sm);
   text-align: center;
+  font-weight: 900;
+  font-size: 0.8rem;
 }
 
 .success {
-  color: #4ade80;
+  color: var(--primary);
 }
 
 .error {
-  color: #f87171;
+  color: #E74C3C;
 }
