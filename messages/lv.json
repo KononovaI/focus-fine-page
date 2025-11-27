@@ -1,0 +1,35 @@
+{
+  "Hero": {
+    "title": "Focus Fine - Tavs Produktivitātes Sabiedrotais",
+    "description": "Uzlabo savu fokusu un sasniedz mērķus ar mūsu mobilo risinājumu.",
+    "cta": "Lejupielādēt instalācijas failu"
+  },
+  "Video": {
+    "title": "Skaties Demo"
+  },
+  "Download": {
+    "title": "Iegūsti Lietotni",
+    "android": "Lejupielādēt Android versiju"
+  },
+  "Newsletter": {
+    "title": "Jaunumi",
+    "description": "Pieraksties jaunumiem, lai uzzinātu pirmais.",
+    "placeholder": "Ievadi savu e-pastu",
+    "button": "Pierakstīties",
+    "success": "Paldies par pierakstīšanos!",
+    "error": "Kaut kas nogāja greizi."
+  },
+  "Contact": {
+    "title": "Sazinies ar Mums",
+    "name": "Vārds",
+    "email": "E-pasts",
+    "message": "Ziņa",
+    "button": "Nosūtīt Ziņu",
+    "success": "Ziņa nosūtīta!",
+    "error": "Neizdevās nosūtīt ziņu."
+  },
+  "Team": {
+    "title": "Komanda",
+    "role": "Izstrādātājs"
+  }
+}

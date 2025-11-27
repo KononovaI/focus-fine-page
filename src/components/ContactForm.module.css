@@ -1,0 +1,21 @@
+.container {
+  padding: var(--spacing-xl) 0;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.message {
+  margin-top: var(--spacing-sm);
+  text-align: center;
+}
+
+.success {
+  color: #4ade80;
+}
+
+.error {
+  color: #f87171;
+}

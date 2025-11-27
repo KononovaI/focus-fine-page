@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Focus Fine Landing Page
 
-## Getting Started
+A professional, mobile-first landing page for the Focus Fine product, built with Next.js, Vanilla CSS, and Supabase.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Mobile-First Design**: Optimized for mobile devices with a modern, dark aesthetic.
+- **Multi-Language Support**: English (en) and Latvian (lv) using `next-intl`.
+- **Supabase Integration**:
+  - Newsletter subscription.
+  - Contact form submissions.
+- **Video Demo**: YouTube Shorts embed.
+- **No External UI Libraries**: Pure Vanilla CSS with CSS Modules.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    cd focus-fine-page
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3.  **Environment Variables**:
+    Create a `.env.local` file in the root directory:
+    ```bash
+    cp .env.local.example .env.local
+    ```
+    The file already contains your Supabase credentials. If you need to change them, update the values in `.env.local`.
 
-To learn more about Next.js, take a look at the following resources:
+4.  **Run Development Server**:
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Database Schema (Supabase)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ensure your Supabase project has the following tables:
 
-## Deploy on Vercel
+### `newsletter_subscribers`
+| Column | Type | Description |
+| :--- | :--- | :--- |
+| `id` | uuid | Primary Key, Default: `gen_random_uuid()` |
+| `email` | text | Subscriber email |
+| `created_at` | timestamptz | Default: `now()` |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### `contact_messages`
+| Column | Type | Description |
+| :--- | :--- | :--- |
+| `id` | uuid | Primary Key, Default: `gen_random_uuid()` |
+| `name` | text | Sender name |
+| `email` | text | Sender email |
+| `message` | text | Message content |
+| `created_at` | timestamptz | Default: `now()` |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+This project is optimized for deployment on [Vercel](https://vercel.com).
+
+1.  Push your code to GitHub/GitLab/Bitbucket.
+2.  Import the project in Vercel.
+3.  Vercel will automatically detect Next.js and configure the build settings.
+4.  Deploy!
+
+## Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Vanilla CSS (CSS Modules)
+- **Backend**: Supabase
+- **Internationalization**: next-intl

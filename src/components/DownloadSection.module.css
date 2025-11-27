@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+  background: var(--surface);
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.androidBtn {
+  background: #3ddc84; /* Android Green */
+  color: #000;
+}
+
+.androidBtn:hover {
+  background: #35c776;
+}

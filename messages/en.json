@@ -1,0 +1,35 @@
+{
+  "Hero": {
+    "title": "Focus Fine - Your Productivity Companion",
+    "description": "Boost your focus and achieve your goals with our mobile-first solution.",
+    "cta": "Download Now"
+  },
+  "Video": {
+    "title": "See it in Action"
+  },
+  "Download": {
+    "title": "Get the App",
+    "android": "Download for Android"
+  },
+  "Newsletter": {
+    "title": "Stay Updated",
+    "description": "Subscribe to our newsletter for the latest updates.",
+    "placeholder": "Enter your email",
+    "button": "Subscribe",
+    "success": "Thanks for subscribing!",
+    "error": "Something went wrong."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "button": "Send Message",
+    "success": "Message sent!",
+    "error": "Failed to send message."
+  },
+  "Team": {
+    "title": "Meet the Team",
+    "role": "Developer"
+  }
+}
