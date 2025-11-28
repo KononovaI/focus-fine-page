@@ -1,14 +1,14 @@
 {
   "Hero": {
     "title": "Focus Fine - Tavs Produktivitātes Sabiedrotais",
-    "description": "Uzlabo savu fokusu un sasniedz mērķus ar mūsu mobilo risinājumu.",
-    "cta": "Lejupielādēt instalācijas failu"
+    "description": "Uzlabo savu koncentrēšanos un produktivitāti, bloķējot traucējošas lietotnes brīžos, kad nepieciešams koncentrēties.",
+    "cta": "Lejupielādēt"
   },
   "Video": {
     "title": "Skaties Demo"
   },
   "Download": {
-    "title": "Iegūsti Lietotni",
+    "title": "Iegūsti Focus Fine",
     "android": "Lejupielādēt Android versiju"
   },
   "Newsletter": {
@@ -20,7 +20,7 @@
     "error": "Kaut kas nogāja greizi."
   },
   "Contact": {
-    "title": "Sazinies ar Mums",
+    "title": "Sazinies & Iesūti atsauksmes",
     "name": "Vārds",
     "email": "E-pasts",
     "message": "Ziņa",

@@ -1,14 +1,14 @@
 {
   "Hero": {
     "title": "Focus Fine - Your Productivity Companion",
-    "description": "Boost your focus and achieve your goals with our mobile-first solution.",
-    "cta": "Download Now"
+    "description": "Boost your focus and productivity by blocking distracting apps when you need to concentrate.",
+    "cta": "Download"
   },
   "Video": {
     "title": "See it in Action"
   },
   "Download": {
-    "title": "Get the App",
+    "title": "Get Focus Fine",
     "android": "Download for Android"
   },
   "Newsletter": {
@@ -20,7 +20,7 @@
     "error": "Something went wrong."
   },
   "Contact": {
-    "title": "Contact Us",
+    "title": "Contact Us & Leave feedback",
     "name": "Name",
     "email": "Email",
     "message": "Message",
