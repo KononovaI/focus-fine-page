@@ -28,7 +28,7 @@ export default function NewsletterForm() {
   };
 
   return (
-    <section className={styles.container}>
+    <section id="newsletter" className={styles.container}>
       <div className="container">
         <h2>{t('title')}</h2>
         <p>{t('description')}</p>

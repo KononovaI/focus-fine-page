@@ -2,7 +2,13 @@
   "Hero": {
     "title": "Focus Fine - Tavs Produktivitātes Sabiedrotais",
     "description": "Uzlabo savu koncentrēšanos un produktivitāti, bloķējot traucējošas lietotnes brīžos, kad nepieciešams koncentrēties.",
-    "cta": "Lejupielādēt"
+    "cta": "Uz lejupielādi"
+  },
+  "Navigation": {
+    "video": "Demo",
+    "download": "Lejupielādēt",
+    "newsletter": "Jaunumi",
+    "contact": "Kontakti"
   },
   "Video": {
     "title": "Skaties Demo"

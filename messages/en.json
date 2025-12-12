@@ -2,7 +2,13 @@
   "Hero": {
     "title": "Focus Fine - Your Productivity Companion",
     "description": "Boost your focus and productivity by blocking distracting apps when you need to concentrate.",
-    "cta": "Download"
+    "cta": "Go to Download"
+  },
+  "Navigation": {
+    "video": "Demo",
+    "download": "Download",
+    "newsletter": "Newsletter",
+    "contact": "Contact"
   },
   "Video": {
     "title": "See it in Action"

@@ -4,6 +4,7 @@
   border: 3px dashed var(--border);
   margin: var(--spacing-md);
   border-radius: var(--radius);
+  text-align: center;
 }
 
 .form {

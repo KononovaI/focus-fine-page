@@ -6,7 +6,7 @@ export default function VideoPlayer() {
   const videoId = 'FHa-cnjITOU'; // Extracted from URL
 
   return (
-    <section className={`container ${styles.container}`}>
+    <section id="video" className={`container ${styles.container}`}>
       <h2>{t('title')}</h2>
       <div className={styles.wrapper}>
         <iframe

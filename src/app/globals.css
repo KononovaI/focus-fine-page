@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/pixolletta');
-@import url('https://fonts.cdnfonts.com/css/pixeled');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
   /* Pixel Art Color Scheme */
@@ -14,13 +14,13 @@
   --border: #2C3E50;
   --border-dashed: #2C3E50;
   
-  --font-pixel: 'Pixeled', 'Pixolletta', 'Courier New', 'Courier', monospace;
+  --font-pixel: 'Courier New', 'Pixolletta', 'Press Start 2P', 'Courier', monospace;
   
   --radius: 0.5rem;
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
-  --spacing-xl: 4rem;
+  --spacing-xl: 1rem;
 }
 
 * {
@@ -43,6 +43,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-pixel);
   line-height: 1.6;
+  scroll-padding-top: 100px; /* Offset for fixed header */
 }
 
 a {

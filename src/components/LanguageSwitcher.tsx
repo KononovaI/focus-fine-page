@@ -18,7 +18,7 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div style={{ position: 'absolute', top: '1rem', right: '1rem', zIndex: 101 }}>
+    <div>
       <select
         defaultValue={locale}
         onChange={handleChange}
