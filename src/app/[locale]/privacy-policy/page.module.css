@@ -6,7 +6,7 @@
 
 .contentWrapper {
   flex-grow: 1;
-  padding-top: 2rem;
+  padding-top: 4rem; /* Offset for fixed header */
   padding-bottom: 2rem;
 }
 
@@ -53,6 +53,6 @@
 }
 
 .footerNote {
-  font-style: italic;
+  /*font-style: italic;*/
   margin-top: 0.5rem;
 }
