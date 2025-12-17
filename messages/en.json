@@ -8,7 +8,8 @@
     "video": "Demo",
     "download": "Download",
     "newsletter": "Newsletter",
-    "contact": "Contact"
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy"
   },
   "Video": {
     "title": "See it in Action"
@@ -37,5 +38,102 @@
   "Team": {
     "title": "Meet the Team",
     "role": "Developer"
+  },
+  "PrivacyPolicy": {
+    "title": "Focus Fine Privacy Policy",
+    "effectiveDate": "Effective Date: 17 December 2025",
+    "intro": "This Privacy Policy explains how the Focus Fine team (“we”) processes information when you use the Focus Fine mobile application (“App”), which blocks distracting applications to improve productivity.",
+    "sections": {
+      "1": {
+        "title": "1. Privacy Principle",
+        "content": "We respect your privacy. Blocking settings and focus-related data are processed locally on your device whenever possible.\nWe do not analyze which specific apps you block or for how long, except where this is necessary for the App’s operation or analytics."
+      },
+      "2": {
+        "title": "2. Information We Collect",
+        "subsections": {
+          "2_1": {
+            "title": "2.1. Blocking Data",
+            "items": [
+              "names and package identifiers (Package ID) of blocked applications;",
+              "blocking duration, schedules, “Strict Mode,” and protection settings;",
+              "early unlock fee configuration."
+            ]
+          },
+          "2_2": {
+            "title": "2.2. Technical and Account Data",
+            "items": [
+              "User identifier (User ID) via Firebase Authentication;",
+              "purchase history via Google Play In-App Purchases;",
+              "logs of blocking and unblocking actions;",
+              "device identifiers and technical data via the Firebase Software Development Kit (Firebase SDK);",
+              "email address if you contact support."
+            ],
+            "footer": "We do not store full payment information (such as payment card numbers)."
+          }
+        }
+      },
+      "3": {
+        "title": "3. Use of Data",
+        "content": "Data is used only for:",
+        "items": [
+          "providing App functionality;",
+          "processing payments;",
+          "improving performance and stability;",
+          "customer support."
+        ]
+      },
+      "4": {
+        "title": "4. Data Sharing",
+        "content": "Data is not sold. It may be shared only with:",
+        "items": [
+          "Google Play and payment processing services;",
+          "analytics and infrastructure services (such as Firebase);",
+          "when required by law."
+        ]
+      },
+      "5": {
+        "title": "5. Data Security",
+        "items": [
+          "Data is encrypted in transit using secure communication protocols (Hypertext Transfer Protocol Secure – HTTPS / Secure Sockets Layer – SSL).",
+          "Sensitive blocking settings are stored locally or in a secure environment.",
+          "Complete security on the internet cannot be guaranteed."
+        ]
+      },
+      "6": {
+        "title": "6. Children’s Privacy",
+        "items": [
+          "The App is not intended for children under the age of 13.",
+          "We do not knowingly collect personal data from children."
+        ]
+      },
+      "7": {
+        "title": "7. Your Rights",
+        "content": "In accordance with the General Data Protection Regulation (GDPR), you have the right to access your data, request its correction or deletion, and obtain information about data processing."
+      },
+      "8": {
+        "title": "8. Legal Basis for Data Processing",
+        "content": "Within the European Economic Area (EEA), data is processed based on:",
+        "items": [
+          "performance of a contract (providing the App);",
+          "compliance with legal obligations;",
+          "our legitimate interests (security, analytics, improvements)."
+        ]
+      },
+      "9": {
+        "title": "9. Data Processing Outside the European Union",
+        "items": [
+          "We use Google services (Firebase, Google Play) whose servers may be located outside the European Union (EU).",
+          "Data transfers are carried out in accordance with the GDPR using European Commission–approved Standard Contractual Clauses or other appropriate mechanisms."
+        ]
+      },
+      "10": {
+        "title": "10. Changes to This Policy",
+        "content": "This Privacy Policy may be updated. The current version will always be available in the App or on the Google Play page."
+      },
+      "11": {
+        "title": "11. Contact",
+        "content": "Email: nilspauls28@gmail.com"
+      }
+    }
   }
 }

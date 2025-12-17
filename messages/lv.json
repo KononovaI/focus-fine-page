@@ -8,7 +8,8 @@
     "video": "Demo",
     "download": "Lejupielādēt",
     "newsletter": "Jaunumi",
-    "contact": "Kontakti"
+    "contact": "Kontakti",
+    "privacyPolicy": "Privātuma politika"
   },
   "Video": {
     "title": "Skaties Demo"
@@ -37,5 +38,102 @@
   "Team": {
     "title": "Komanda",
     "role": "Izstrādātājs"
+  },
+  "PrivacyPolicy": {
+    "title": "Focus Fine Privātuma politika",
+    "effectiveDate": "Spēkā stāšanās datums: 17.12.2025",
+    "intro": "Šī Privātuma politika nosaka, kā Focus Fine komanda (“mēs”) apstrādā informāciju, kad Jūs lietojat mobilo lietotni Focus Fine (“Lietotne”), kas bloķē traucējošas lietotnes produktivitātes uzlabošanai.",
+    "sections": {
+      "1": {
+        "title": "1. Privātuma princips",
+        "content": "Mēs cienām Jūsu privātumu. Bloķēšanas iestatījumi un ar fokusu saistītie dati pēc iespējas tiek apstrādāti lokāli Jūsu ierīcē.\nMēs neanalizējam, kuras konkrētās lietotnes Jūs bloķējat vai cik ilgi, izņemot gadījumus, kad tas ir nepieciešams Lietotnes darbībai vai analītikai."
+      },
+      "2": {
+        "title": "2. Apkopotā informācija",
+        "subsections": {
+          "2_1": {
+            "title": "2.1. Bloķēšanas dati",
+            "items": [
+              "bloķēto lietotņu nosaukumi un pakotņu identifikatori (Package ID);",
+              "bloķēšanas ilgums, grafiki, “Strict Mode” un aizsardzības iestatījumi;",
+              "priekšlaicīgas atbloķēšanas maksas iestatījumi."
+            ]
+          },
+          "2_2": {
+            "title": "2.2. Tehniskie un konta dati",
+            "items": [
+              "Lietotāja identifikators (User ID), izmantojot Firebase Authentication;",
+              "pirkumu vēsture, izmantojot Google Play In-App Purchases;",
+              "bloķēšanas un atbloķēšanas darbību žurnāli;",
+              "ierīces identifikatori un tehniskie dati, izmantojot Firebase programmatūras izstrādes komplektu (Firebase Software Development Kit – SDK);",
+              "e-pasta adrese, ja sazināties ar atbalstu."
+            ],
+            "footer": "Mēs neuzglabājam pilnu maksājumu informāciju (piemēram, maksājumu karšu numurus)."
+          }
+        }
+      },
+      "3": {
+        "title": "3. Datu izmantošana",
+        "content": "Dati tiek izmantoti tikai:",
+        "items": [
+          "Lietotnes darbības nodrošināšanai;",
+          "maksājumu apstrādei;",
+          "veiktspējas un stabilitātes uzlabošanai;",
+          "klientu atbalstam."
+        ]
+      },
+      "4": {
+        "title": "4. Datu nodošana",
+        "content": "Dati netiek pārdoti. Tie var tikt nodoti tikai:",
+        "items": [
+          "Google Play un maksājumu apstrādes pakalpojumiem;",
+          "analītikas un infrastruktūras pakalpojumiem (piemēram, Firebase);",
+          "ja to prasa likums."
+        ]
+      },
+      "5": {
+        "title": "5. Datu drošība",
+        "items": [
+          "Dati tiek šifrēti pārsūtīšanas laikā, izmantojot drošus sakaru protokolus (Hypertext Transfer Protocol Secure – HTTPS / Secure Sockets Layer – SSL).",
+          "Sensitīvie bloķēšanas iestatījumi tiek glabāti lokāli vai drošā vidē.",
+          "Pilnīga drošība internetā nevar tikt garantēta."
+        ]
+      },
+      "6": {
+        "title": "6. Bērnu privātums",
+        "items": [
+          "Lietotne nav paredzēta bērniem līdz 13 gadiem.",
+          "Mēs apzināti neapkopo bērnu personas datus."
+        ]
+      },
+      "7": {
+        "title": "7. Jūsu tiesības",
+        "content": "Atbilstoši Vispārīgajai datu aizsardzības regulai (General Data Protection Regulation – GDPR) Jums ir tiesības piekļūt saviem datiem, pieprasīt to labošanu vai dzēšanu un saņemt informāciju par datu apstrādi."
+      },
+      "8": {
+        "title": "8. Datu apstrādes juridiskais pamats",
+        "content": "Eiropas Ekonomikas zonas (European Economic Area – EEZ) ietvaros dati tiek apstrādāti, pamatojoties uz:",
+        "items": [
+          "līguma izpildi (Lietotnes nodrošināšana);",
+          "juridisku pienākumu izpildi;",
+          "mūsu leģitīmajām interesēm (drošība, analītika, uzlabojumi)."
+        ]
+      },
+      "9": {
+        "title": "9. Datu apstrāde ārpus Eiropas Savienības",
+        "items": [
+          "Mēs izmantojam Google pakalpojumus (Firebase, Google Play), kuru serveri var atrasties ārpus Eiropas Savienības (European Union – ES).",
+          "Datu pārsūtīšana notiek saskaņā ar GDPR, izmantojot Eiropas Komisijas apstiprinātos Standarta līguma noteikumus (Standard Contractual Clauses) vai citus atbilstošus mehānismus."
+        ]
+      },
+      "10": {
+        "title": "10. Izmaiņas politikā",
+        "content": "Privātuma politika var tikt atjaunināta. Aktuālā versija vienmēr būs pieejama Lietotnē vai Google Play lapā."
+      },
+      "11": {
+        "title": "11. Kontakti",
+        "content": "E-pasts: nilspauls28@gmail.com"
+      }
+    }
   }
 }

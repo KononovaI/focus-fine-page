@@ -11,4 +11,25 @@
   font-size: 0.7rem;
   font-weight: 900;
   letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.links {
+  margin-top: var(--spacing-sm);
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+}
+
+.link {
+  font-size: 0.7rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--foreground);
+  border-bottom: 2px dashed var(--foreground);
+}
+
+.link:hover {
+  color: var(--primary);
+  border-color: var(--primary);
 }
