@@ -14,6 +14,9 @@ export default function Footer() {
           <Link href="/privacy-policy" className={styles.link}>
             {t('privacyPolicy')}
           </Link>
+          <Link href="/terms-of-use" className={styles.link}>
+            {t('termsOfUse')}
+          </Link>
         </div>
       </div>
     </footer>

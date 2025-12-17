@@ -10,6 +10,7 @@
     "newsletter": "Jaunumi",
     "contact": "Kontakti",
     "privacyPolicy": "Privātuma politika",
+    "termsOfUse": "Lietošanas noteikumi",
     "home": "Uz sākuma lapu"
   },
   "Video": {
@@ -134,6 +135,116 @@
       "11": {
         "title": "11. Kontakti",
         "content": "E-pasts: nilspauls28@gmail.com"
+      }
+    }
+  },
+  "TermsOfUse": {
+    "title": "Focus Fine Lietošanas noteikumi",
+    "effectiveDate": "Spēkā stāšanās datums: 17.12.2025",
+    "intro": "Šie Lietošanas noteikumi (“Noteikumi”) nosaka jūsu piekļuvi un lietošanu Focus Fine mobilajai lietotnei (“Lietotne”), ko nodrošina Focus Fine komanda (“mēs”, “mums”, “mūsu”). Lejupielādējot, instalējot vai lietojot Lietotni, jūs piekrītat šiem Noteikumiem.\n\nJa nepiekrītat šiem Noteikumiem, nelietojiet Lietotni.",
+    "sections": {
+      "1": {
+        "title": "1. Lietotnes mērķis",
+        "content": "Focus Fine ir produktivitātes rīks, kas palīdz lietotājiem samazināt uzmanības novēršanu, bloķējot izvēlētās lietotnes Android ierīcēs.\nDažas funkcijas var būt maksas funkcijas, piemēram, priekšlaicīgas atbloķēšanas maksa, kas ļauj lietotājam manuāli atcelt bloķēšanu."
+      },
+      "2": {
+        "title": "2. Lietotāja atbilstība",
+        "items": [
+          "Jums jābūt vismaz 13 gadus vecam, lai lietotu Lietotni.",
+          "Lietojot Lietotni, jūs apstiprināt, ka atbilstat šim vecuma ierobežojumam."
+        ]
+      },
+      "3": {
+         "title": "3. Licence Lietotnes izmantošanai",
+         "content": "Mēs jums piešķiram ierobežotu, neekskluzīvu, nepārvēršamu, atsaucamu licenci izmantot Lietotni personīgām, nekomerciālām vajadzībām, saskaņā ar šiem Noteikumiem.\n\nJūs nedrīkstat:",
+         "items": [
+           "atpakaļizpētīt, modificēt vai mēģināt iegūt Lietotnes avota kodu;",
+           "izmantot Lietotni veidā, kas pārkāpj piemērojamos likumus vai noteikumus;",
+           "traucēt vai apiet Lietotnes drošības vai bloķēšanas mehānismus."
+         ]
+      },
+      "4": {
+         "title": "4. Lietotāja atbildība",
+         "content": "Jūs esat atbildīgs par:",
+         "items": [
+           "bloķēšanas noteikumu, grafiku un iestatījumu konfigurēšanu;",
+           "sekām, kas rodas, atspējojot vai pārsniedzot bloķēšanu;",
+           "nodrošinot, ka jūsu ierīce atbilst Lietotnes tehniskajām prasībām."
+         ],
+         "footer": "Lietotne tiek nodrošināta kā paškontroles un produktivitātes palīgs, nevis garantija fokusa, veiktspējas vai rezultātu sasniegšanai."
+      },
+      "5": {
+        "title": "5. Maksājumi un priekšlaicīgas atbloķēšanas maksa",
+        "items": [
+            "Dažas Lietotnes funkcijas var prasīt maksājumu caur Google Play In-App Purchases.",
+            "Visi maksājumi tiek apstrādāti Google Play.",
+            "Mēs neuzglabājam jūsu pilnu maksājumu informāciju.",
+            "Priekšlaicīgas atbloķēšanas maksa ir brīvprātīga un iniciēta lietotāja.",
+            "Visi pirkumi pakļauti Google Play norēķinu noteikumiem un atmaksas politikai."
+        ]
+      },
+      "6": {
+          "title": "6. Nav profesionālu padomu",
+          "items": [
+              "Lietotne nesniedz medicīniskus, psiholoģiskus, finanšu vai citus profesionālus padomus.",
+              "Jebkādi produktivitātes rezultāti ir atkarīgi tikai no jūsu personīgās rīcības un izvēlēm."
+          ]
+      },
+      "7": {
+          "title": "7. Pieejamība un izmaiņas",
+          "content": "Mēs varam:",
+          "items": [
+              "mainīt, apturēt vai pārtraukt jebkuru Lietotnes daļu jebkurā laikā;",
+              "atjaunināt funkcijas, darbību vai cenas."
+          ],
+          "footer": "Mēs negarantējam nepārtrauktu vai bez kļūdām darbību."
+      },
+      "8": {
+          "title": "8. Intelektuālā īpašuma tiesības",
+          "items": [
+              "Visas tiesības, īpašumtiesības un intereses uz Lietotni, ieskaitot programmatūru, dizainu, tekstu un preču zīmes, pieder mums vai ir licencētas mums.",
+              "Jūs nedrīkstat izmantot mūsu intelektuālo īpašumu bez iepriekšējas rakstiskas atļaujas."
+          ]
+      },
+      "9": {
+          "title": "9. Garantiju atruna",
+          "content": "Lietotne tiek nodrošināta “kā ir” un “kā pieejama”, bez jebkādām garantijām, tiešām vai netiešām.\n\nMēs negarantējam, ka:",
+          "items": [
+              "Lietotne atbildīs jūsu gaidām;",
+              "Lietotne būs nepārtraukta, droša vai bez kļūdām;",
+              "Lietotnes izmantošana uzlabos produktivitāti."
+          ]
+      },
+      "10": {
+          "title": "10. Atbildības ierobežojums",
+          "content": "Cik vien tas ir likumīgi atļauts, mēs neuzņemamies atbildību par:",
+          "items": [
+              "netiešiem, blakus, īpašiem vai sekām radītiem zaudējumiem;",
+              "produktivitātes, datu vai ierīces funkcionalitātes zaudējumiem;",
+              "zaudējumiem, kas radušies no jūsu Lietotnes izmantošanas vai neizmantošanas."
+          ]
+      },
+      "11": {
+          "title": "11. Noteikumu pārtraukšana",
+          "items": [
+              "Mēs varam apturēt vai pārtraukt jūsu piekļuvi Lietotnei, ja pārkāpat šos Noteikumus.",
+              "Jūs varat pārtraukt Lietotnes lietošanu jebkurā laikā, to atinstalējot."
+          ]
+      },
+      "12": {
+          "title": "12. Piemērojamie tiesību akti",
+          "content": "Šie Noteikumi tiek regulēti un interpretēti saskaņā ar Latvijas Republikas normatīvajiem aktiem, ievērojot piemērojamos Eiropas Savienības tiesību aktus."
+      },
+      "13": {
+          "title": "13. Noteikumu izmaiņas",
+          "items": [
+              "Mēs varam laiku pa laikam atjaunināt šos Noteikumus.",
+              "Jaunākā versija vienmēr būs pieejama Lietotnē vai Google Play lapā."
+          ]
+      },
+      "14": {
+          "title": "14. Kontakti",
+          "content": "Ja jums ir jautājumi par šiem Noteikumiem, lūdzu, sazinieties ar mums:\n\nE-pasts: nilspauls28@gmail.com"
       }
     }
   }
