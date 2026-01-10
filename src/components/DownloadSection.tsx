@@ -10,8 +10,9 @@ export default function DownloadSection() {
         <h2>{t('title')}</h2>
         <div className={styles.buttonGroup}>
           <a 
-            href="https://amncyapgihtaziuabbkd.supabase.co/storage/v1/object/public/files/focus-fine-app-v8a-release.apk" 
-            download="focus-fine-app-v8a-release.apk"
+            href="https://play.google.com/store/apps/details?id=com.focusfine.focusfine&pcampaignid=web_share"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`btn ${styles.androidBtn}`}
           >
             {t('android')}
