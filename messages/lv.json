@@ -43,7 +43,7 @@
   },
   "PrivacyPolicy": {
     "title": "Focus Fine Privātuma politika",
-    "effectiveDate": "Spēkā stāšanās datums: 17.12.2025",
+    "effectiveDate": "Spēkā stāšanās datums: 21.01.2026",
     "intro": "Šī Privātuma politika nosaka, kā Focus Fine komanda (“mēs”) apstrādā informāciju, kad Jūs lietojat mobilo lietotni Focus Fine (“Lietotne”), kas bloķē traucējošas lietotnes produktivitātes uzlabošanai.",
     "sections": {
       "1": {
@@ -75,7 +75,50 @@
         }
       },
       "3": {
-        "title": "3. Datu izmantošana",
+        "title": "3. Android pieejamības pakalpojuma izmantošana",
+        "content": "Lietotne izmanto Android pieejamības pakalpojumu (Accessibility Service) tikai un vienīgi, lai nodrošinātu Lietotnes pamatfunkcionalitāti — lietotāja izvēlēto lietotņu bloķēšanu aktīvu fokusa sesiju laikā.",
+        "subsections": {
+          "3_1": {
+            "title": "3.1. Android pieejamības pakalpojuma izmantošanas mērķis",
+            "content": "Android pieejamības pakalpojums tiek izmantots tikai, lai:",
+            "items": [
+              "noteiktu, kad lietotājs mēģina atvērt lietotni, kuru pats ir izvēlējies bloķēt;",
+              "aktīvas bloķēšanas sesijas laikā nekavējoties liegtu piekļuvi šai lietotnei."
+            ],
+            "footer": "Bez Android pieejamības pakalpojuma Lietotne nespētu droši un efektīvi nodrošināt lietotņu bloķēšanu Android ierīcēs."
+          },
+          "3_2": {
+            "title": "3.2. Dati, kas tiek apstrādāti Android pieejamības pakalpojuma ietvaros",
+            "content": "Android pieejamības pakalpojuma ietvaros Lietotne apstrādā:",
+            "items": [
+              "pašlaik priekšplānā esošās lietotnes pakotnes identifikatoru (Package ID);",
+              "lietotņu stāvokļa izmaiņas (priekšplānā vai fonā)."
+            ],
+            "footer": "Visa ar Android pieejamības pakalpojumu saistītā datu apstrāde notiek lokāli lietotāja ierīcē."
+          },
+          "3_3": {
+            "title": "3.3. Aizliegtā izmantošana",
+            "content": "Lietotne neizmanto Android pieejamības pakalpojumu, lai:",
+            "items": [
+              "lasītu, ierakstītu vai analizētu ekrāna saturu;",
+              "nolasītu ievadīto tekstu, paroles vai taustiņu nospiedumus;",
+              "uzraudzītu lietotāja darbības ārpus lietotāja izvēlētajām bloķētajām lietotnēm;",
+              "apkopotu datus reklāmas vai profilēšanas nolūkiem;",
+              "pārsūtītu Android pieejamības pakalpojuma datus uz ārējiem serveriem vai trešajām pusēm."
+            ]
+          },
+          "3_4": {
+            "title": "3.4. Lietotāja kontrole",
+            "items": [
+              "Android pieejamības pakalpojums pēc noklusējuma ir izslēgts;",
+              "lietotājam tas ir jāieslēdz apzināti ierīces sistēmas iestatījumos;",
+              "lietotājs var jebkurā laikā atspējot Android pieejamības pakalpojumu savas ierīces iestatījumos."
+            ]
+          }
+        }
+      },
+      "4": {
+        "title": "4. Datu izmantošana",
         "content": "Dati tiek izmantoti tikai:",
         "items": [
           "Lietotnes darbības nodrošināšanai;",
@@ -84,8 +127,8 @@
           "klientu atbalstam."
         ]
       },
-      "4": {
-        "title": "4. Datu nodošana",
+      "5": {
+        "title": "5. Datu nodošana",
         "content": "Dati netiek pārdoti. Tie var tikt nodoti tikai:",
         "items": [
           "Google Play un maksājumu apstrādes pakalpojumiem;",
@@ -93,27 +136,27 @@
           "ja to prasa likums."
         ]
       },
-      "5": {
-        "title": "5. Datu drošība",
+      "6": {
+        "title": "6. Datu drošība",
         "items": [
           "Dati tiek šifrēti pārsūtīšanas laikā, izmantojot drošus sakaru protokolus (Hypertext Transfer Protocol Secure – HTTPS / Secure Sockets Layer – SSL).",
           "Sensitīvie bloķēšanas iestatījumi tiek glabāti lokāli vai drošā vidē.",
           "Pilnīga drošība internetā nevar tikt garantēta."
         ]
       },
-      "6": {
-        "title": "6. Bērnu privātums",
+      "7": {
+        "title": "7. Bērnu privātums",
         "items": [
           "Lietotne nav paredzēta bērniem līdz 13 gadiem.",
           "Mēs apzināti neapkopo bērnu personas datus."
         ]
       },
-      "7": {
-        "title": "7. Jūsu tiesības",
+      "8": {
+        "title": "8. Jūsu tiesības",
         "content": "Atbilstoši Vispārīgajai datu aizsardzības regulai (General Data Protection Regulation – GDPR) Jums ir tiesības piekļūt saviem datiem, pieprasīt to labošanu vai dzēšanu un saņemt informāciju par datu apstrādi."
       },
-      "8": {
-        "title": "8. Datu apstrādes juridiskais pamats",
+      "9": {
+        "title": "9. Datu apstrādes juridiskais pamats",
         "content": "Eiropas Ekonomikas zonas (European Economic Area – EEZ) ietvaros dati tiek apstrādāti, pamatojoties uz:",
         "items": [
           "līguma izpildi (Lietotnes nodrošināšana);",
@@ -121,19 +164,19 @@
           "mūsu leģitīmajām interesēm (drošība, analītika, uzlabojumi)."
         ]
       },
-      "9": {
-        "title": "9. Datu apstrāde ārpus Eiropas Savienības",
+      "10": {
+        "title": "10. Datu apstrāde ārpus Eiropas Savienības",
         "items": [
           "Mēs izmantojam Google pakalpojumus (Firebase, Google Play), kuru serveri var atrasties ārpus Eiropas Savienības (European Union – ES).",
           "Datu pārsūtīšana notiek saskaņā ar GDPR, izmantojot Eiropas Komisijas apstiprinātos Standarta līguma noteikumus (Standard Contractual Clauses) vai citus atbilstošus mehānismus."
         ]
       },
-      "10": {
-        "title": "10. Izmaiņas politikā",
+      "11": {
+        "title": "11. Izmaiņas politikā",
         "content": "Privātuma politika var tikt atjaunināta. Aktuālā versija vienmēr būs pieejama Lietotnē vai Google Play lapā."
       },
-      "11": {
-        "title": "11. Kontakti",
+      "12": {
+        "title": "12. Kontakti",
         "content": "E-pasts: nilspauls28@gmail.com"
       }
     }

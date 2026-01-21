@@ -43,7 +43,7 @@
   },
   "PrivacyPolicy": {
     "title": "Focus Fine Privacy Policy",
-    "effectiveDate": "Effective Date: 17 December 2025",
+    "effectiveDate": "Effective Date: 21 January 2026",
     "intro": "This Privacy Policy explains how the Focus Fine team (“we”) processes information when you use the Focus Fine mobile application (“App”), which blocks distracting applications to improve productivity.",
     "sections": {
       "1": {
@@ -75,7 +75,50 @@
         }
       },
       "3": {
-        "title": "3. Use of Data",
+        "title": "3. Use of Android Accessibility Service",
+        "content": "The App uses the Android Accessibility Service solely to provide the core functionality of the App — blocking applications selected by the user during active focus sessions.",
+        "subsections": {
+          "3_1": {
+            "title": "3.1. Purpose of Using the Android Accessibility Service",
+            "content": "The Android Accessibility Service is used only to:",
+            "items": [
+              "detect when a user attempts to open an application they have chosen to block;",
+              "immediately deny access to that application during an active blocking session."
+            ],
+            "footer": "Without the Android Accessibility Service, the App would not be able to reliably and effectively enforce application blocking on Android devices."
+          },
+          "3_2": {
+            "title": "3.2. Data Processed Within the Android Accessibility Service",
+            "content": "Within the scope of the Android Accessibility Service, the App processes:",
+            "items": [
+              "the package identifier (Package ID) of the application currently in the foreground;",
+              "changes in application state (foreground or background)."
+            ],
+            "footer": "All data processing related to the Android Accessibility Service takes place locally on the user’s device."
+          },
+          "3_3": {
+            "title": "3.3. Prohibited Use",
+            "content": "The App does not use the Android Accessibility Service to:",
+            "items": [
+              "read, record, or analyze screen content;",
+              "read entered text, passwords, or keystrokes;",
+              "monitor user actions outside of the applications chosen to be blocked;",
+              "collect data for advertising or profiling purposes;",
+              "transmit Android Accessibility Service data to external servers or third parties."
+            ]
+          },
+          "3_4": {
+            "title": "3.4. User Control",
+            "items": [
+              "The Android Accessibility Service is disabled by default;",
+              "the user must explicitly enable it in the device's system settings;",
+              "the user may disable the Android Accessibility Service at any time through the device’s system settings."
+            ]
+          }
+        }
+      },
+      "4": {
+        "title": "4. Use of Data",
         "content": "Data is used only for:",
         "items": [
           "providing App functionality;",
@@ -84,8 +127,8 @@
           "customer support."
         ]
       },
-      "4": {
-        "title": "4. Data Sharing",
+      "5": {
+        "title": "5. Data Sharing",
         "content": "Data is not sold. It may be shared only with:",
         "items": [
           "Google Play and payment processing services;",
@@ -93,27 +136,27 @@
           "when required by law."
         ]
       },
-      "5": {
-        "title": "5. Data Security",
+      "6": {
+        "title": "6. Data Security",
         "items": [
           "Data is encrypted in transit using secure communication protocols (Hypertext Transfer Protocol Secure – HTTPS / Secure Sockets Layer – SSL).",
           "Sensitive blocking settings are stored locally or in a secure environment.",
           "Complete security on the internet cannot be guaranteed."
         ]
       },
-      "6": {
-        "title": "6. Children’s Privacy",
+      "7": {
+        "title": "7. Children’s Privacy",
         "items": [
           "The App is not intended for children under the age of 13.",
           "We do not knowingly collect personal data from children."
         ]
       },
-      "7": {
-        "title": "7. Your Rights",
+      "8": {
+        "title": "8. Your Rights",
         "content": "In accordance with the General Data Protection Regulation (GDPR), you have the right to access your data, request its correction or deletion, and obtain information about data processing."
       },
-      "8": {
-        "title": "8. Legal Basis for Data Processing",
+      "9": {
+        "title": "9. Legal Basis for Data Processing",
         "content": "Within the European Economic Area (EEA), data is processed based on:",
         "items": [
           "performance of a contract (providing the App);",
@@ -121,19 +164,19 @@
           "our legitimate interests (security, analytics, improvements)."
         ]
       },
-      "9": {
-        "title": "9. Data Processing Outside the European Union",
+      "10": {
+        "title": "10. Data Processing Outside the European Union",
         "items": [
           "We use Google services (Firebase, Google Play) whose servers may be located outside the European Union (EU).",
           "Data transfers are carried out in accordance with the GDPR using European Commission–approved Standard Contractual Clauses or other appropriate mechanisms."
         ]
       },
-      "10": {
-        "title": "10. Changes to This Policy",
+      "11": {
+        "title": "11. Changes to This Policy",
         "content": "This Privacy Policy may be updated. The current version will always be available in the App or on the Google Play page."
       },
-      "11": {
-        "title": "11. Contact",
+      "12": {
+        "title": "12. Contact",
         "content": "Email: nilspauls28@gmail.com"
       }
     }

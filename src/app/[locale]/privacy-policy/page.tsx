@@ -53,18 +53,37 @@ export default function PrivacyPolicy() {
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>{t('sections.3.title')}</h2>
-              <p>{t('sections.3.content')}</p>
-              {renderList('sections.3.items')}
+              <div className={styles.subsection}>
+                <p className={styles.sectionContent}>{t('sections.3.content')}</p>
+                
+                <h3 className={styles.subsectionTitle}>{t('sections.3.subsections.3_1.title')}</h3>
+                <p className={styles.subsectionContent}>{t('sections.3.subsections.3_1.content')}</p>
+                {renderList('sections.3.subsections.3_1.items')}
+                <p className={styles.footerNote}>{t('sections.3.subsections.3_1.footer')}</p>
+                
+                <h3 className={styles.subsectionTitle}>{t('sections.3.subsections.3_2.title')}</h3>
+                <p className={styles.subsectionContent}>{t('sections.3.subsections.3_2.content')}</p>
+                {renderList('sections.3.subsections.3_2.items')}
+                <p className={styles.footerNote}>{t('sections.3.subsections.3_2.footer')}</p>
+
+                <h3 className={styles.subsectionTitle}>{t('sections.3.subsections.3_3.title')}</h3>
+                <p className={styles.subsectionContent}>{t('sections.3.subsections.3_3.content')}</p>
+                {renderList('sections.3.subsections.3_3.items')}
+
+                <h3 className={styles.subsectionTitle}>{t('sections.3.subsections.3_4.title')}</h3>
+                {renderList('sections.3.subsections.3_4.items')}
+              </div>
             </section>
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>{t('sections.4.title')}</h2>
-              <p>{t('sections.4.content')}</p>
+              <p className={styles.sectionContent}>{t('sections.4.content')}</p>
               {renderList('sections.4.items')}
             </section>
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>{t('sections.5.title')}</h2>
+              <p className={styles.sectionContent}>{t('sections.5.content')}</p>
               {renderList('sections.5.items')}
             </section>
 
@@ -75,28 +94,33 @@ export default function PrivacyPolicy() {
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>{t('sections.7.title')}</h2>
-              <p>{t('sections.7.content')}</p>
+              {renderList('sections.7.items')}
             </section>
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>{t('sections.8.title')}</h2>
-              <p>{t('sections.8.content')}</p>
-              {renderList('sections.8.items')}
+              <p className={styles.sectionContent}>{t('sections.8.content')}</p>
             </section>
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>{t('sections.9.title')}</h2>
+              <p className={styles.sectionContent}>{t('sections.9.content')}</p>
               {renderList('sections.9.items')}
             </section>
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>{t('sections.10.title')}</h2>
-              <p>{t('sections.10.content')}</p>
+              {renderList('sections.10.items')}
             </section>
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>{t('sections.11.title')}</h2>
-              <p>{t('sections.11.content')}</p>
+              <p className={styles.sectionContent}>{t('sections.11.content')}</p>
+            </section>
+
+            <section className={styles.section}>
+              <h2 className={styles.sectionTitle}>{t('sections.12.title')}</h2>
+              <p className={styles.sectionContent}>{t('sections.12.content')}</p>
             </section>
           </div>
         </div>
