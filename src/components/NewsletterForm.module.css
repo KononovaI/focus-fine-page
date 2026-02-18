@@ -1,17 +1,17 @@
+/* Step 2.5 — Newsletter: clean card, no dashed borders */
 .container {
-  padding: var(--spacing-xl) 0;
+  padding: var(--space-2xl) 0;
   text-align: center;
-  background: var(--surface);
-  border: 3px dashed var(--border);
-  margin: var(--spacing-md);
-  border-radius: var(--radius);
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  margin: var(--space-md);
 }
 
 .form {
   max-width: 400px;
-  margin: var(--spacing-lg) auto 0;
+  margin: var(--space-lg) auto 0;
   display: flex;
-  gap: var(--spacing-sm);
+  gap: var(--space-sm);
 }
 
 .input {
@@ -20,15 +20,15 @@
 }
 
 .message {
-  margin-top: var(--spacing-sm);
-  font-size: 0.8rem;
-  font-weight: 900;
+  margin-top: var(--space-sm);
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .success {
-  color: var(--primary);
+  color: var(--color-success);
 }
 
 .error {
-  color: #E74C3C;
+  color: var(--color-error);
 }

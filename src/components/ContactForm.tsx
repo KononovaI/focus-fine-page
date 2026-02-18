@@ -56,7 +56,7 @@ export default function ContactForm() {
             rows={5}
             disabled={status === 'loading'}
           ></textarea>
-          <button type="submit" className="btn btn-primary" style={{ width: '100%' }} disabled={status === 'loading'}>
+          <button type="submit" className={`btn btn-primary ${styles.submitBtn}`} disabled={status === 'loading'}>
             {status === 'loading' ? '...' : t('button')}
           </button>
         </form>

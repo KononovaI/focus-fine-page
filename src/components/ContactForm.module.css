@@ -1,9 +1,9 @@
+/* Step 2.6 — Contact Form: clean card, design token colors */
 .container {
-  padding: var(--spacing-xl) 0;
-  background: var(--background);
-  border: 3px dashed var(--border);
-  margin: var(--spacing-md);
-  border-radius: var(--radius);
+  padding: var(--space-2xl) 0;
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-card);
+  margin: var(--space-md);
   text-align: center;
 }
 
@@ -12,17 +12,21 @@
   margin: 0 auto;
 }
 
+.submitBtn {
+  width: 100%;
+}
+
 .message {
-  margin-top: var(--spacing-sm);
+  margin-top: var(--space-sm);
   text-align: center;
-  font-weight: 900;
-  font-size: 0.8rem;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .success {
-  color: var(--primary);
+  color: var(--color-success);
 }
 
 .error {
-  color: #E74C3C;
+  color: var(--color-error);
 }

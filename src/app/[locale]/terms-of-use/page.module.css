@@ -1,3 +1,4 @@
+/* Step 2.9 — Terms of Use page: clean typography, proper spacing */
 .main {
   min-height: 100vh;
   display: flex;
@@ -6,53 +7,58 @@
 
 .contentWrapper {
   flex-grow: 1;
-  padding-top: 4rem; /* Offset for fixed header */
-  padding-bottom: 2rem;
+  padding-top: calc(80px + var(--space-xl)); /* header height + spacing */
+  padding-bottom: var(--space-xl);
 }
 
 .title {
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-md);
 }
 
 .effectiveDate {
-  margin-bottom: 1.5rem;
-  font-weight: bold;
+  margin-bottom: var(--space-lg);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  font-size: 14px;
 }
 
 .intro {
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-xl);
+  line-height: 1.7;
 }
 
 .section {
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-xl);
 }
 
 .sectionTitle {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--space-sm);
 }
 
 .subsection {
-  margin-left: 1rem;
-  margin-top: 1rem;
+  margin-left: var(--space-md);
+  margin-top: var(--space-md);
 }
 
 .subsectionTitle {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
 }
 
 .list {
   list-style-type: disc;
-  padding-left: 1.5rem;
-  margin-bottom: 1rem;
+  padding-left: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .list li {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--space-xs);
+  line-height: 1.6;
 }
 
 .footerNote {
-  /*font-style: italic;*/
-  margin-top: 0.5rem;
+  margin-top: var(--space-sm);
+  color: var(--color-text-secondary);
+  font-size: 14px;
 }

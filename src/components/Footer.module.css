@@ -1,35 +1,33 @@
+/* Step 2.7 — Footer: clean, minimal, matches app's subtle style */
 .footer {
-  background: var(--surface);
-  border-top: 3px dashed var(--border);
-  padding: var(--spacing-lg) 0;
+  background: var(--color-bg-alt);
+  border-top: 1px solid var(--color-bg-separator);
+  padding: var(--space-lg) 0;
   text-align: center;
-  margin-top: var(--spacing-xl);
+  margin-top: var(--space-xl);
 }
 
 .copyright {
-  color: var(--foreground);
-  font-size: 0.7rem;
-  font-weight: 900;
-  letter-spacing: 1px;
-  letter-spacing: 1px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .links {
-  margin-top: var(--spacing-sm);
+  margin-top: var(--space-sm);
   display: flex;
   justify-content: center;
-  gap: var(--spacing-md);
+  gap: var(--space-lg);
 }
 
 .link {
-  font-size: 0.7rem;
-  font-weight: 900;
+  font-size: 12px;
+  font-weight: 500;
   text-decoration: none;
-  color: var(--foreground);
-  border-bottom: 2px dashed var(--foreground);
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease;
 }
 
 .link:hover {
-  color: var(--primary);
-  border-color: var(--primary);
+  color: var(--color-accent);
 }

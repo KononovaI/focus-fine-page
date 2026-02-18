@@ -4,7 +4,7 @@ import VideoPlayer from '@/components/VideoPlayer';
 import DownloadSection from '@/components/DownloadSection';
 import NewsletterForm from '@/components/NewsletterForm';
 import ContactForm from '@/components/ContactForm';
-import TeamSection from '@/components/TeamSection';
+
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <DownloadSection />
       <NewsletterForm />
       <ContactForm />
-      {/* <TeamSection /> */}
+
       <Footer />
     </main>
   );

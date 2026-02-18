@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
     <main className={styles.main}>
       <Header />
       <div className={`container ${styles.contentWrapper}`}>
-        <div className="pixel-box">
+        <div className="content-box">
           <h1 className={styles.title}>{t('title')}</h1>
           <p className={styles.effectiveDate}>{t('effectiveDate')}</p>
           <p className={styles.intro}>{t('intro')}</p>

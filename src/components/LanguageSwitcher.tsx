@@ -3,6 +3,7 @@
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/routing';
 import { ChangeEvent, useTransition } from 'react';
+import styles from './LanguageSwitcher.module.css';
 
 export default function LanguageSwitcher() {
   const locale = useLocale();
@@ -23,17 +24,7 @@ export default function LanguageSwitcher() {
         defaultValue={locale}
         onChange={handleChange}
         disabled={isPending}
-        style={{
-          padding: '0.5rem 1rem',
-          borderRadius: 'var(--radius)',
-          background: 'var(--primary)',
-          color: 'var(--border)',
-          border: '3px solid var(--border)',
-          fontWeight: '900',
-          fontSize: '0.8rem',
-          textTransform: 'uppercase',
-          cursor: 'pointer'
-        }}
+        className={styles.select}
       >
         <option value="en">English</option>
         <option value="lv">Latviešu</option>

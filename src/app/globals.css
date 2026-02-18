@@ -1,49 +1,82 @@
-@import url('https://fonts.cdnfonts.com/css/pixolletta');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* ═══════════════════════════════════════════════════════════════
+   Focus Fine — Global Design System
+   All values derived from the Flutter app:
+     · app_colors.dart    → color tokens
+     · app_text_styles.dart → typography
+     · app_theme.dart     → radii, elevations, component styles
+   ═══════════════════════════════════════════════════════════════ */
 
+/* Step 1.1 — Outfit font (same as app: GoogleFonts.outfit()) */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+/* ─── Step 1.2 — Design Tokens (Light Mode) ─── */
 :root {
-  /* Pixel Art Color Scheme */
-  --background: #8FA7B3;
-  --foreground: #2C3E50;
-  --primary: #F4E04D;
-  --primary-hover: #E5D13E;
-  --secondary: #F4E04D;
-  --accent: #F4E04D;
-  --surface: #A8BCC8;
-  --surface-hover: #97ABB7;
-  --border: #2C3E50;
-  --border-dashed: #2C3E50;
-  
-  --font-pixel: 'Courier New', 'Pixolletta', 'Press Start 2P', 'Courier', monospace;
-  
-  --radius: 0.5rem;
-  --spacing-sm: 0.5rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 2rem;
-  --spacing-xl: 1rem;
+  /* From AppColors — Light Mode */
+  --color-bg-primary: #F2F2F7;       /* backgroundPrimaryLight */
+  --color-bg-alt: #FFFFFF;            /* backgroundAltLight */
+  --color-bg-separator: #E5E5EA;      /* backgroundLightLight */
+  --color-surface: #FFFFFF;           /* surfaceLight */
+  --color-text-primary: #1C1C1E;      /* textPrimaryLight */
+  --color-text-secondary: #8E8E93;    /* textSecondaryLight */
+  --color-text-tertiary: #C7C7CC;     /* textTertiaryLight */
+  --color-primary: #1C1C1E;           /* primaryLight */
+
+  /* Shared accents (same in light & dark) */
+  --color-accent: #FFD60A;            /* accentYellow */
+  --color-success: #34C759;           /* actionGreen */
+  --color-error: #FF453A;             /* error */
+
+  /* Typography */
+  --font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Radii — from app_theme.dart */
+  --radius-card: 16px;                /* BorderRadius.circular(16) */
+  --radius-input: 12px;               /* BorderRadius.circular(12) */
+  --radius-button: 16px;              /* BorderRadius.circular(16) */
+
+  /* Spacing scale */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
 }
 
+/* ─── Step 1.3 — Dark Mode (from AppColors dark palette) ─── */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-primary: #000000;       /* OLED Black */
+    --color-bg-alt: #1C1C1E;           /* backgroundAlt */
+    --color-bg-separator: #2C2C2E;     /* backgroundLight */
+    --color-surface: #1C1C1E;          /* surface */
+    --color-text-primary: #FFFFFF;     /* textPrimary */
+    --color-text-secondary: #8E8E93;   /* textSecondary */
+    --color-text-tertiary: #636366;    /* textTertiary */
+    --color-primary: #FFFFFF;          /* primaryDark */
+  }
+}
+
+/* ─── Step 1.4 — Global Reset & Base Styles ─── */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: var(--font-pixel);
-  image-rendering: pixelated;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: crisp-edges;
-  -webkit-font-smoothing: none;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-pixel);
-  line-height: 1.6;
-  scroll-padding-top: 100px; /* Offset for fixed header */
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-padding-top: 80px;
 }
 
 a {
@@ -56,118 +89,125 @@ button {
   font-family: inherit;
 }
 
-/* Utilities */
+/* ─── Utilities ─── */
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--spacing-md);
+  padding: 0 var(--space-md);
 }
 
 .section {
-  padding: var(--spacing-xl) 0;
+  padding: var(--space-2xl) 0;
 }
 
+/* ─── Step 1.5 — Headings (from app_text_styles.dart) ─── */
+h1, h2, h3 {
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+  font-family: var(--font-family);
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-size: 32px;       /* headingLarge: fontSize 32 */
+  font-weight: 700;      /* fontWeight: w700 */
+}
+
+h2 {
+  font-size: 24px;       /* headingMedium: fontSize 24 */
+  font-weight: 600;      /* fontWeight: w600 */
+}
+
+h3 {
+  font-size: 18px;       /* headingSmall: fontSize 18 */
+  font-weight: 600;
+}
+
+/* ─── Step 1.6 — Buttons (from app_theme.dart → _buildElevatedButtonTheme) ─── */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.75rem 1.5rem;
-  border-radius: var(--radius);
-  font-weight: 900;
+  gap: var(--space-sm);
+  padding: 16px 24px;                  /* EdgeInsets.symmetric(horizontal: 24, vertical: 16) */
+  border-radius: var(--radius-button); /* BorderRadius.circular(16) */
+  font-weight: 700;                    /* buttonLarge: w700 */
+  font-size: 16px;
+  font-family: var(--font-family);
   transition: all 0.2s ease;
-  border: 3px solid var(--border);
-  background: var(--primary);
-  color: var(--border);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-primary {
-  background: var(--primary);
-  color: var(--border);
-  border: 3px solid var(--border);
+  background: var(--color-primary);
+  color: var(--color-bg-primary);
 }
 
 .btn-primary:hover {
-  background: var(--primary-hover);
-  transform: translateY(-2px);
-  box-shadow: 4px 4px 0 var(--border);
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  opacity: 0.75;
+}
+
+.btn-accent {
+  background: var(--color-accent);
+  color: #1C1C1E;
+}
+
+.btn-accent:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
 }
 
 .btn-outline {
   background: transparent;
-  border: 3px dashed var(--border);
-  color: var(--foreground);
+  border: 1px solid var(--color-bg-separator);
+  color: var(--color-text-primary);
 }
 
 .btn-outline:hover {
-  background: var(--surface);
-  border-color: var(--border);
+  background: var(--color-surface);
+  border-color: var(--color-text-tertiary);
 }
 
-h1, h2, h3 {
-  line-height: 1.2;
-  margin-bottom: var(--spacing-md);
-  font-family: var(--font-pixel);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 900;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  color: var(--primary);
-  text-shadow: 3px 3px 0 var(--border);
-}
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: var(--foreground);
-}
-
+/* ─── Step 1.7 — Inputs (from app_theme.dart → _buildInputDecorationTheme) ─── */
 input, textarea {
   width: 100%;
-  padding: 0.75rem;
-  border-radius: var(--radius);
-  background: var(--surface);
-  border: 3px dashed var(--border);
-  color: var(--foreground);
-  font-family: var(--font-pixel);
-  margin-bottom: var(--spacing-md);
-  font-size: 0.8rem;
+  padding: 16px;                        /* contentPadding: symmetric(horizontal: 16, vertical: 16) */
+  border-radius: var(--radius-input);   /* BorderRadius.circular(12) */
+  background: var(--color-bg-separator); /* fillColor: backgroundLight */
+  border: 1px solid transparent;
+  color: var(--color-text-primary);
+  font-family: var(--font-family);
+  font-size: 14px;                      /* bodyMedium: fontSize 14 */
+  margin-bottom: var(--space-md);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--color-text-tertiary);     /* hintStyle: textTertiary */
 }
 
 input:focus, textarea:focus {
-  outline: none;
-  border: 3px solid var(--border);
-  background: #B8CCD8;
+  border-color: var(--color-primary);    /* focusedBorder: BorderSide(width: 1) */
 }
 
-/* Pixel Art Specific */
-.pixel-text {
-  font-family: var(--font-pixel);
-  image-rendering: pixelated;
-  -webkit-font-smoothing: none;
-  -moz-osx-font-smoothing: grayscale;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 900;
+/* ─── Step 1.8 — Content Box (replaces .pixel-box) ─── */
+.content-box {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: var(--space-xl);
+  margin: var(--space-md) 0;
 }
 
-.pixel-border {
-  border: 3px dashed var(--border-dashed);
-  padding: var(--spacing-md);
-  border-radius: var(--radius);
-}
-
-.pixel-box {
-  background: var(--surface);
-  border: 3px dashed var(--border);
-  padding: var(--spacing-lg);
-  margin: var(--spacing-md) 0;
-  border-radius: var(--radius);
+/* Utility: text wrapping for legal pages */
+.whitespace-pre-line {
+  white-space: pre-line;
 }

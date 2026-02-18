@@ -40,3 +40,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# documentation for personal use
+LANDING_PAGE_AUDIT.md
+REFACTORING_PLAN.md

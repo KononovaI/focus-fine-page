@@ -3,7 +3,7 @@ import styles from './VideoPlayer.module.css';
 
 export default function VideoPlayer() {
   const t = useTranslations('Video');
-  const videoId = 'FHa-cnjITOU'; // Extracted from URL
+  const videoId = 'gkF_YlF3NEk'; // Extracted from URL
 
   return (
     <section id="video" className={`container ${styles.container}`}>

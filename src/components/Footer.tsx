@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className="container">
         <p className={styles.copyright}>
-          © 2025 Focus Fine. All rights reserved.
+          © {new Date().getFullYear()} Focus Fine. All rights reserved.
         </p>
         <div className={styles.links}>
           <Link href="/privacy-policy" className={styles.link}>
