@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import StoreBadge from './StoreBadge';
 import styles from './Hero.module.css';
 
 export default function Hero() {
@@ -8,7 +9,9 @@ export default function Hero() {
     <section className={styles.hero}>
       <h1 className={styles.title}>{t('title')}</h1>
       <p className={styles.description}>{t('description')}</p>
-      <a href="#download" className="btn btn-primary cta">{t('cta')}</a>
+      <div className={styles.ctaWrapper}>
+        <StoreBadge platform="google-play" campaign="hero" />
+      </div>
     </section>
   );
 }

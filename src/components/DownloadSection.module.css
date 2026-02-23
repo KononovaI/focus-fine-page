@@ -7,22 +7,11 @@
   margin: var(--space-md);
 }
 
-.buttonGroup {
+.badgesWrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: var(--space-md);
-  margin-top: var(--space-lg);
+  margin-top: var(--space-xl);
   flex-wrap: wrap;
-}
-
-.androidBtn {
-  background: var(--color-primary);
-  color: var(--color-bg-primary);
-  border: none;
-  border-radius: var(--radius-button);
-}
-
-.androidBtn:hover {
-  opacity: 0.85;
-  transform: translateY(-1px);
 }

@@ -1,31 +1,47 @@
 {
   "Hero": {
-    "title": "Focus Fine - Tavs Produktivitātes Sabiedrotais",
-    "description": "Uzlabo savu koncentrēšanos un produktivitāti, bloķējot traucējošas lietotnes brīžos, kad nepieciešams koncentrēties.",
-    "cta": "Uz lejupielādi"
+    "title": "Bloķē traucējošās lietotnes un atgūsti fokusu",
+    "description": "Focus Fine bloķē lietotnes, kas zog tavu laiku. Iestati taimeri, bloķē traucēkļus un maksā reālu naudu, lai atbloķētu pirms laika. Pārvaldi savu uzmanību jau šodien.",
+    "cta": "Iegūsti Google Play"
   },
   "Navigation": {
+    "features": "Funkcijas",
     "video": "Demo",
     "download": "Lejupielādēt",
-    "newsletter": "Jaunumi",
+    "newsletter": "Gaidītāju saraksts",
     "contact": "Kontakti",
     "privacyPolicy": "Privātuma politika",
     "termsOfUse": "Lietošanas noteikumi",
     "home": "Uz sākuma lapu"
   },
+  "Features": {
+    "title": "Kā tas darbojas",
+    "feature1": {
+      "title": "Bloķē traucēkļus",
+      "description": "Izvēlies lietotnes, kas zog tavu fokusu. Kad tās ir bloķētas, ceļa atpakaļ nav."
+    },
+    "feature2": {
+      "title": "Apsoli sev laiku",
+      "description": "Iestati bloķēšanas ilgumu. Atgūsti savu fokusu pilnībā."
+    },
+    "feature3": {
+      "title": "Maksā, lai krāptos",
+      "description": "Vajag atbloķēt ātrāk? Tu vari — bet tas maksā reālu naudu caur Google Pay."
+    }
+  },
   "Video": {
-    "title": "Skaties Demo"
+    "title": "Skaties demo"
   },
   "Download": {
-    "title": "Iegūsti Focus Fine",
-    "android": "Lejupielādēt Android versiju"
+    "title": "Sāc fokusēties tagad",
+    "android": "Pieejams tagad Google Play veikalā"
   },
   "Newsletter": {
-    "title": "Jaunumi",
-    "description": "Pieraksties jaunumiem, lai uzzinātu pirmais.",
+    "title": "iOS versija drīzumā",
+    "description": "Pievienojies gaidīšanas sarakstam, lai pirmais uzzinātu par Focus Fine palaišanu App Store.",
     "placeholder": "Ievadi savu e-pastu",
-    "button": "Pierakstīties",
-    "success": "Paldies par pierakstīšanos!",
+    "button": "Pievienoties sarakstam",
+    "success": "Tu esi pievienots gaidīšanas sarakstam!",
     "error": "Kaut kas nogāja greizi."
   },
   "Contact": {

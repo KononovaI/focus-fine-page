@@ -1,31 +1,47 @@
 {
   "Hero": {
-    "title": "Focus Fine - Your Productivity Companion",
-    "description": "Boost your focus and productivity by blocking distracting apps when you need to concentrate.",
-    "cta": "Go to Download"
+    "title": "Block Distracting Apps & Reclaim Your Focus",
+    "description": "Focus Fine blocks the apps that steal your time. Set a timer, lock distractions, and pay real money to unlock early. Master your focus today.",
+    "cta": "Get it on Google Play"
   },
   "Navigation": {
+    "features": "Features",
     "video": "Demo",
     "download": "Download",
-    "newsletter": "Newsletter",
+    "newsletter": "iOS Waitlist",
     "contact": "Contact",
     "privacyPolicy": "Privacy Policy",
     "termsOfUse": "Terms of Use",
     "home": "To Home page"
   },
+  "Features": {
+    "title": "How it works",
+    "feature1": {
+      "title": "Block Distractions",
+      "description": "Choose the apps that steal your focus. Once active, there is no way back."
+    },
+    "feature2": {
+      "title": "Commit to Time",
+      "description": "Set a duration for your block. Reclaim your focus entirely."
+    },
+    "feature3": {
+      "title": "Pay to Cheat",
+      "description": "Need to unlock early? You can — but it costs real money via Google Pay."
+    }
+  },
   "Video": {
     "title": "See it in Action"
   },
   "Download": {
-    "title": "Get Focus Fine",
-    "android": "Download for Android"
+    "title": "Start Focusing Now",
+    "android": "Available now on Google Play"
   },
   "Newsletter": {
-    "title": "Stay Updated",
-    "description": "Subscribe to our newsletter for the latest updates.",
+    "title": "iOS Version Coming Soon",
+    "description": "Join the waitlist to be the first to know when Focus Fine launches on the App Store.",
     "placeholder": "Enter your email",
-    "button": "Subscribe",
-    "success": "Thanks for subscribing!",
+    "button": "Join Waitlist",
+    "success": "You've been added to the waitlist!",
     "error": "Something went wrong."
   },
   "Contact": {
