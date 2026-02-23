@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: "Your productivity companion",
 };
 
+import StickyMobileCTA from '@/components/StickyMobileCTA';
+
 export default async function RootLayout({
   children,
   params
@@ -23,6 +25,7 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           {children}
+          <StickyMobileCTA />
         </NextIntlClientProvider>
       </body>
     </html>

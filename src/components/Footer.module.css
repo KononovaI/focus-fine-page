@@ -31,3 +31,9 @@
 .link:hover {
   color: var(--color-accent);
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding-bottom: 100px; /* Space for StickyMobileCTA */
+  }
+}

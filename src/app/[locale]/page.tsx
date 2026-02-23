@@ -5,7 +5,6 @@ import InlineCTA from '@/components/InlineCTA';
 import DownloadSection from '@/components/DownloadSection';
 import NewsletterForm from '@/components/NewsletterForm';
 import ContactForm from '@/components/ContactForm';
-import StickyMobileCTA from '@/components/StickyMobileCTA';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <DownloadSection />
       <NewsletterForm />
       <ContactForm />
-      <StickyMobileCTA />
       <Footer />
     </main>
   );
