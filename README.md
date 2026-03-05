@@ -27,8 +27,9 @@ A professional, mobile-first landing page for the Focus Fine productivity app, b
 ## Setup
 
 ### 1. Clone the repository
+Clone the `dev` branch for development:
 ```bash
-git clone https://github.com/KononovaI/focus-fine-page.git
+git clone -b dev https://github.com/KononovaI/focus-fine-page.git
 cd focus-fine-page
 ```
 
@@ -100,6 +101,12 @@ focus-fine-page/
 ## Deployment
 
 This project is optimized for deployment on [Vercel](https://vercel.com).
+
+### Development Workflow
+- **Branch Strategy**: Always push your active development work to the `dev` branch.
+- **Preview Deployments**: Whenever you push code to the `dev` branch, Vercel automatically builds it but **does not update the live site**.
+- **Testing**: Vercel generates a unique **Preview URL** for every push. This allows you to see and test your changes in a real environment without affecting the version our users see.
+- **Accessing the URL**: To get your Preview URL, push your code to `dev` and then check the **GitHub Pull Request** (or the commit status check) for the Vercel deployment link.
 
 ## Tech Stack
 
