@@ -8,7 +8,7 @@
     "features": "Features",
     "video": "Demo",
     "download": "Download",
-    "newsletter": "iOS Waitlist",
+    "newsletter": "iOS Waiting List",
     "contact": "Contact",
     "privacyPolicy": "Privacy Policy",
     "termsOfUse": "Terms of Use",
@@ -38,10 +38,10 @@
   },
   "Newsletter": {
     "title": "iOS Version Coming Soon",
-    "description": "Join the waitlist to be the first to know when Focus Fine launches on the App Store.",
+    "description": "Join the waiting list to be the first to know when Focus Fine launches on the App Store.",
     "placeholder": "Enter your email",
-    "button": "Join Waitlist",
-    "success": "You've been added to the waitlist!",
+    "button": "Join Waitg List",
+    "success": "You've been added to the waiting list!",
     "error": "Something went wrong."
   },
   "Contact": {

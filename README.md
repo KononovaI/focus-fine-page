@@ -7,18 +7,18 @@ A professional, mobile-first landing page for the Focus Fine productivity app, b
 - **Mobile-First Design**: Optimized for mobile devices with a modern, dark aesthetic inspired by contemporary web design
 - **Multi-Language Support**: English (EN) and Latvian (LV) using `next-intl` with language switcher
 - **Supabase Integration**:
-  - Newsletter subscription form
+  - iOS Waiting List (email collection)
   - Contact form submissions
   - Secure Row Level Security (RLS) policies
 - **Media**:
   - YouTube Shorts video demo embed
   - Logo from Supabase Storage
-  - Downloadable app file from Supabase Storage
+  - Link to the Google Play Store
 - **Components**:
   - Hero section with gradient text
   - Video player section
-  - Download section with Android app link
-  - Newsletter subscription form
+  - Download section with Google Play and App Store badges
+  - iOS Waiting List form
   - Contact form
   - Footer with copyright
 - **No External UI Libraries**: Pure Vanilla CSS with CSS Modules for styling
@@ -49,6 +49,8 @@ focus-fine-page/
 ├── src/
 │   ├── app/
 │   │   ├── [locale]/          # Internationalized routes
+│   │   │   ├── privacy-policy/ # Privacy Policy page
+│   │   │   ├── terms-of-use/   # Terms of Use page
 │   │   │   ├── layout.tsx     # Root layout with i18n
 │   │   │   └── page.tsx       # Main landing page
 │   │   └── globals.css        # Global styles and CSS variables
@@ -56,9 +58,12 @@ focus-fine-page/
 │   │   ├── Header.tsx         # Logo header
 │   │   ├── Hero.tsx           # Hero section
 │   │   ├── VideoPlayer.tsx    # YouTube embed
-│   │   ├── DownloadSection.tsx # Download button
-│   │   ├── NewsletterForm.tsx  # Newsletter subscription
+│   │   ├── InlineCTA.tsx      # Mid-page call to action
+│   │   ├── DownloadSection.tsx # Download buttons
+│   │   ├── StoreBadge.tsx     # Reusable app store badges
+│   │   ├── NewsletterForm.tsx  # iOS Waiting List form
 │   │   ├── ContactForm.tsx     # Contact form
+│   │   ├── StickyMobileCTA.tsx # Floating mobile button
 │   │   ├── Footer.tsx          # Footer with copyright
 │   │   └── LanguageSwitcher.tsx # Language toggle
 │   ├── i18n/                  # Internationalization config
@@ -70,13 +75,13 @@ focus-fine-page/
 ├── messages/                  # Translation files
 │   ├── en.json               # English translations
 │   └── lv.json               # Latvian translations
-├── .env.local.example        # Environment variables template
-└── README.md
+├── public/                    # Static assets
+└── .env.local.example        # Environment variables template
 ```
 
 ## Database Schema
 
-### `newsletter_subscribers`
+### `newsletter_subscribers` (iOS Waiting List)
 | Column | Type | Description |
 | :--- | :--- | :--- |
 | `id` | uuid | Primary Key, Default: `gen_random_uuid()` |
@@ -111,4 +116,5 @@ This project is optimized for deployment on [Vercel](https://vercel.com).
 The app supports English and Latvian with a language switcher in the top-right corner. Translations are managed through JSON files in the `messages/` directory.
 
 ### Forms
-Both the Newsletter and Contact forms are connected to Supabase with proper error handling and loading states. RLS policies ensure secure data insertion.
+Both the iOS Waiting List and Contact forms are connected to Supabase with proper error handling and loading states. RLS policies ensure secure data insertion.
+
