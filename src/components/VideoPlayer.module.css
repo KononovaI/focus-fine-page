@@ -8,9 +8,8 @@
 
 .wrapper {
   position: relative;
-  width: 100%;
-  max-width: 400px; /* Consistent with feature screenshots */
-  max-height: 70vh; /* Limit height relative to screen */
+  width: 90%; /* Take up most of the width but not full on small screens */
+  max-width: min(400px, calc(70vh * 9 / 16)); /* Scale width based on height limit */
   aspect-ratio: 9 / 16;
   border-radius: var(--radius-card);
   overflow: hidden;
