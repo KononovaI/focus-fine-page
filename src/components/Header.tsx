@@ -27,7 +27,8 @@ export default function Header() {
       <nav className={styles.nav}>
         {isLandingPage ? (
           <>
-            <a href="#video" className={styles.navLink}>{t('video')}</a>
+            <a href="#features" className={styles.navLink}>{t('features')}</a>
+            <a href="#demo" className={styles.navLink}>{t('video')}</a>
             <a href="#download" className={styles.navLink}>{t('download')}</a>
             <a href="#newsletter" className={styles.navLink}>{t('newsletter')}</a>
             <a href="#contact" className={styles.navLink}>{t('contact')}</a>

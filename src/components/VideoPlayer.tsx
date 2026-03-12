@@ -13,7 +13,7 @@ export default function VideoPlayer() {
   const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
 
   return (
-    <section id="video" className={`container ${styles.container}`}>
+    <section id="demo" className={`container ${styles.container}`}>
       <h2>{t('title')}</h2>
       <div className={styles.wrapper}>
         {!isPlaying ? (

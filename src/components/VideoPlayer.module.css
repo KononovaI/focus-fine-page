@@ -1,4 +1,4 @@
-/* Step 2.4 — Video Player: clean container, rounded corners, subtle shadow */
+/* Video Player: clean container, rounded corners, subtle shadow */
 .container {
   display: flex;
   flex-direction: column;

@@ -15,18 +15,18 @@
     "home": "Uz sākuma lapu"
   },
   "Features": {
-    "title": "Kā tas darbojas",
+    "title": "Pārvaldi savu laiku 3 soļos",
     "feature1": {
-      "title": "Bloķē traucēkļus",
-      "description": "Izvēlies lietotnes, kas zog tavu fokusu. Kad tās ir bloķētas, ceļa atpakaļ nav."
+      "title": "Izvēlies traucēkļus",
+      "description": "Izvēlies lietotnes, kas zog tavu uzmanību. YouTube, TikTok vai Instagram — tās visas ir tavā kontrolē."
     },
     "feature2": {
-      "title": "Apsoli sev laiku",
-      "description": "Iestati bloķēšanas ilgumu. Atgūsti savu fokusu pilnībā."
+      "title": "Iestati savu apņemšanos",
+      "description": "Izlem, cik ilgi fokusēsies, un izvēlies maksu, ko gatavs maksāt, ja gribēsi lauzt apņemšanos. Tas ir tavs apsolījums sev."
     },
     "feature3": {
-      "title": "Maksā, lai krāptos",
-      "description": "Vajag atbloķēt ātrāk? Tu vari — bet tas maksā reālu naudu caur Google Pay."
+      "title": "Dziļais fokuss",
+      "description": "Kad sesija ir aktīva, ceļa atpakaļ nav! Vai nu gaidi līdz iesatītais laiks ir beidzies, vai maksā par apņemšanās laušanu."
     }
   },
   "Video": {

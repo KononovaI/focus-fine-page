@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import FeaturesSection from '@/components/FeaturesSection';
 import VideoPlayer from '@/components/VideoPlayer';
 import InlineCTA from '@/components/InlineCTA';
 import DownloadSection from '@/components/DownloadSection';
@@ -12,6 +13,7 @@ export default function Home() {
     <main>
       <Header />
       <Hero />
+      <FeaturesSection />
       <VideoPlayer />
       <InlineCTA />
       <DownloadSection />

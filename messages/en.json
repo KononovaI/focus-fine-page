@@ -15,18 +15,18 @@
     "home": "To Home page"
   },
   "Features": {
-    "title": "How it works",
+    "title": "Master Your Time in 3 Steps",
     "feature1": {
-      "title": "Block Distractions",
-      "description": "Choose the apps that steal your focus. Once active, there is no way back."
+      "title": "Select Distractions",
+      "description": "Choose the apps that steal your attention. YouTube, TikTok, or Instagram — they're all under your control."
     },
     "feature2": {
-      "title": "Commit to Time",
-      "description": "Set a duration for your block. Reclaim your focus entirely."
+      "title": "Set Your Commitment",
+      "description": "Decide how long you'll focus and choose a price you're ready to pay if you want to break your commitment. This is your promise to yourself."
     },
     "feature3": {
-      "title": "Pay to Cheat",
-      "description": "Need to unlock early? You can — but it costs real money via Google Pay."
+      "title": "Deep Focus",
+      "description": "Once active, there's no way back! Either wait until the timer runs out, or pay to break your commitment."
     }
   },
   "Video": {
