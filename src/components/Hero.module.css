@@ -46,10 +46,13 @@
   background: var(--color-bg-primary);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 175px; /* Desktop fixed size */
 }
 
 .qrCode {
   border-radius: 4px;
+  width: 100% !important;
+  height: auto !important;
 }
 
 @media (max-width: 768px) {
@@ -57,8 +60,15 @@
     padding: var(--space-2xl) var(--space-md) var(--space-xl);
   }
 
+  .ctaWrapper {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
   .qrContainer {
-    display: none;
+    width: 45vw; /* 45% of screen width */
+    max-width: 250px;
+    padding: 2vw;
   }
 
   .badgeContainer {
