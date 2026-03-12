@@ -29,11 +29,42 @@
 .ctaWrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.badgeContainer {
+  display: flex;
+  align-items: center;
+}
+
+.qrContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  background: var(--color-bg-primary);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.qrCode {
+  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
   .hero {
     padding: var(--space-2xl) var(--space-md) var(--space-xl);
+  }
+
+  .qrContainer {
+    display: none;
+  }
+
+  .badgeContainer {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
   }
 
   .title {
